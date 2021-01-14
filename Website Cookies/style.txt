@@ -1,0 +1,24 @@
+body {
+	background-image: url(img/bg2.jpg);
+}
+*{padding: 0px; margin: 0px;}
+
+body {width: 900px; margin: auto ;}
+
+header {background-color: #8FBC8F; font-family: verdana, arial, arial black;}
+header h1 {color: #000000; padding: 20px; padding-bottom: 15px; }
+header p {color: #000000; padding: 20px; padding-top: 0px; }
+
+menu {background-color: #2F4F4F; height: 70px;}
+menu ul {list-style: none; line-height: 50px;}
+menu ul li {float: left; width: 20%; text-align: center; }
+menu ul li a {color: black; text-decoration: none; font-family: verdana; display: block;}
+menu ul li a:hover {background-color: cyan; color: black;}
+
+article {background-color: #d4d0d0; }
+article h2 {font-family: courier new; font-style: bold; padding: 20px; font-size: 25px;}
+article img {float: left; width: 200px;margin: 0px 20px 0px 20px; font-size: 15px; }
+article p {padding-bottom: 30px; font-size: 20px; text-align: justify; padding-left: 20px; padding-right: 20px; }
+
+footer {background-color: #8FBC8F;}
+footer {text-align: center;color: #000000;padding: 10px;font-size: 12px;}

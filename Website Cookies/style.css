@@ -1,0 +1,495 @@
+body {
+	background-image: url(img/bg2.jpg);
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+}
+
+/* Awal NavBar */
+header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar {
+	width: 100%;
+	background-color: rgb(160, 134, 109);
+	font-family: verdana, arial, arial black;
+	padding: 5px;
+	display: flex;
+	border-bottom: 3px solid rgb(124, 101, 79);
+}
+
+.navbar-left {
+	display: flex;
+	padding: 5px;
+	float: right;
+}
+
+.navbar-left h2 {
+	color: white;
+	padding: 15px;
+}
+
+.navbar-left img {
+	height: 60px;
+	padding-left: 30px;
+}
+
+.navbar-right {
+	padding-top: 20px;
+	padding-left: 600px;
+}
+
+.navbar-right ul {
+	display: flex;
+}
+
+.navbar-right li {
+	padding: 0 10px;
+	list-style-type: none;
+	margin-right: 5px;
+}
+
+.navbar-right a {
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-right a:hover {
+	color: black;
+}
+
+/* Akhir Navbar */
+
+
+/* Jumbotron */
+
+.jumbotron {
+	background-image: url(./image/bg2.jpg);
+	width: 100%;
+	height: 530px;
+	padding-top: 150px;
+	text-align: center;
+	color: white;
+	font-family: verdana, arial, arial;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	text-shadow: 0 0 40px #000
+}
+
+.jumbotron p {
+	font-size: 25px;
+	padding-top: 10px;
+	text-shadow: 0 0 20px #000
+}
+
+/* AKhir Jumbotron */
+
+/* Product */
+.jenis {
+	display: flex;
+	padding-left: 40px;
+}
+
+.card-jenis {
+	height: 400px;
+	padding: 0 50px;
+	padding-top: 50px;
+}
+
+.card-product {
+	width: 300px;
+	height: 280px;
+	background-color: rgb(219, 143, 71);
+	box-shadow: 2px 1px 3px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: 20px;
+	padding-top: 30px;
+}
+
+.card-product p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #fff;
+	font-family: verdana, arial, arial;
+}
+
+.card-product img {
+	padding-top: 5px;
+	margin-left: 80px;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.card-product .button {
+	padding: 30px;
+	text-align: center;
+}
+
+.card-product .button a {
+	text-decoration: none;
+}
+
+.card-product .button span {
+	padding-top: 10px;
+	font-size: 17px;
+	margin-top: 5px;
+	color: white;
+	width: 95px;
+	height: 50px;
+	padding: 10px;
+	background-color: rgb(185, 119, 57);
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 5px #fff;
+	margin-bottom: 20px;
+}
+
+.card-product .button span:hover {
+	opacity: 1;
+}
+
+.card-product .button span:active {
+	position: relative;
+	top: 5px;
+	box-shadow: none;
+	opacity: 1;
+}
+
+/* Akhir Product */
+
+/* History Menu */
+
+.history {
+	display: flex;
+	width: 1000px;
+	margin: 0 100px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.history img {
+	border-radius: 10px;
+}
+
+
+/* Akhir History Menu */
+
+/* Content */
+.content {
+	background-color: #d4d0d0;
+}
+
+.content h2 {
+	font-family: courier;
+	font-style: bold;
+	margin: 0 50px;
+	padding: 20px;
+	font-size: 25px;
+}
+
+.content .history img {
+	float: left;
+	width: 200px;
+	margin: 0px 20px 0px 20px;
+	font-size: 15px;
+}
+
+.content .history p {
+	padding-bottom: 30px;
+	font-size: 20px;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.card {
+	background-color: #fff;
+	box-shadow: 2px 1px 3px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.card-content {
+	width: 300px;
+	background-color: #fff;
+	box-shadow: 2px 1px 3px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: 20px;
+	margin-left: 70px;
+}
+
+.title h2 {
+	border-top: 2px solid #fff;
+	font-size: 30px;
+	padding-top: 20px;
+	text-align: center;
+	font-family: verdana, arial, arial;
+}
+
+/* Akhir Content */
+
+
+/* Cookies Menu */
+
+.card-cookies {
+	display: flex;
+	height: 570px;
+	padding-bottom: 50px;
+}
+
+.card-cookies .card-content h3 {
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+
+.card-cookies .card-content ol {
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.card-cookies .card-content span {
+	font-weight: bold;
+}
+
+.card-cookies .card-content p {
+	width: 240px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Akhir Cookies Menu */
+
+/* Contact Menu */
+.contact {
+	display: flex;
+	padding: 0 50px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.contact h3 {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 60px;
+}
+
+.contact .card {
+	background-color: #d4d0d0;
+}
+
+.content-contact {
+	padding-left: 30px;
+	width: 60%;
+}
+
+.sosmed {
+	padding-top: 50px;
+	padding-left: 70px;
+	font-family: verdana, arial, arial;
+}
+
+.sosmed .logo {
+	display: flex;
+}
+
+.sosmed .logo .card-posisi {
+	width: 300px;
+	margin-bottom: 30px;
+	padding: 10px;
+	background-color: rgb(185, 119, 57);
+	border-radius: 20px;
+}
+
+.sosmed span {
+	font-size: 20px;
+}
+
+.sosmed .logo span {
+	letter-spacing: 3px;
+	padding-left: 20px;
+}
+
+.sosmed .logo a {
+	color: #000;
+	text-decoration: none;
+}
+
+.sosmed .logo span i {
+	padding-right: 20px;
+}
+
+.sosmed .logo .card-posisi:hover {
+	background-color: #fff;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.sosmed .logo .card-posisi:hover span {
+	color: rgb(185, 119, 57);
+}
+
+
+/* Sosmed Trick */
+
+/* Whatsapp */
+.sosmed .logo .card-posisi .text-whatsapp::before {
+	content: "Whatsapp";
+}
+
+.sosmed .logo .card-posisi:hover .text-whatsapp::before {
+	content: "";
+}
+
+.sosmed .logo .card-posisi:hover .whatsapp i {
+	padding-right: 0;
+}
+
+.sosmed .logo .card-posisi:hover .text-whatsapp::after {
+	content: "082110945709";
+}
+
+/* AKhir Whatsapp */
+
+
+/* Instagram */
+.sosmed .logo .card-posisi .text-instagram::before {
+	content: "Instagram";
+}
+
+.sosmed .logo .card-posisi:hover .text-instagram::before {
+	content: "";
+}
+
+.sosmed .logo .card-posisi:hover .text-instagram::after {
+	content: "vireen.n";
+}
+
+/* Akhir Instagram */
+
+
+/* Telegram */
+.sosmed .logo .card-posisi .text-telegram::before {
+	content: "Telegram";
+}
+
+.sosmed .logo .card-posisi:hover .text-telegram::before {
+	content: "";
+}
+
+.sosmed .logo .card-posisi:hover .text-telegram::after {
+	content: "vireen_n";
+}
+
+/* Akhir Telegram */
+
+/* Akhir Sosmed Trick */
+
+/* 
+@keyframes slide {
+	0% {
+		left: -290px;
+		top: 90%;
+	}
+
+	50% {
+		left: 10px;
+		top: -30%;
+	}
+
+	100% {
+		left: -10px;
+		top: -10%;
+	}
+} */
+
+.form-contact {
+	padding-left: 30px;
+}
+
+.form-control {
+	padding: 10px;
+	width: 430px;
+	background: white;
+	border: transparent;
+	outline: none;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.contact label {
+	padding-left: 35px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+input {
+	height: 45px;
+	margin-left: 20px;
+}
+
+form .border {
+	border-radius: 5px;
+}
+
+form .button {
+	padding-top: 10px;
+	font-size: 17px;
+	margin-top: 5px;
+	color: white;
+	width: 95px;
+	height: 50px;
+	padding: 10px;
+	background-color: rgb(185, 119, 57);
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 5px #fff;
+	margin-bottom: 20px;
+}
+
+form .button:hover {
+	opacity: 1;
+}
+
+form .button:active {
+	position: relative;
+	top: 5px;
+	box-shadow: none;
+	opacity: 1;
+}
+
+
+/* Akhir Contact Menu */
+
+/* Footer */
+footer {
+	background-color: #222;
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	font-size: 20px;
+}
+
+/* Akhir Footer */
